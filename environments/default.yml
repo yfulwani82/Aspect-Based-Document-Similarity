@@ -1,0 +1,26 @@
+# Settings for your local setup
+local_mac:
+  must_exists: '/Users/yfulwani/Desktop/NLP CSE538/Project/repo/'
+  bert_dir: '/Users/yfulwani/Desktop/NLP CSE538/Project/repo/data/bert'
+  datasets_dir: '/Users/yfulwani/Desktop/NLP CSE538/Project/repo/data'
+  workers: 4
+
+# Settings for your GPU server
+gpu_server:
+  must_exists: /usr/bin/nvidia-smi
+  #must_exists: ~/gpu1
+  bert_dir: /home/sraval/repo/data/bert
+  datasets_dir: /home/sraval/repo/data
+  workers: 12
+
+gpu_server2:
+  must_exists: ~/gpu2
+  datasets_dir: ~datasets
+  bert_dir: ~/datasets/BERT_pre_trained_models/pytorch
+  workers: 36
+
+google_colab:
+  must_exists: /content/gdrive/MyDrive/repo/
+  datasets_dir: /content/gdrive/MyDrive/repo/data/bert
+  bert_dir: /content/gdrive/MyDrive/repo/data
+  workers: 24
